@@ -29,10 +29,10 @@ youtube_username: juanif__
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -47,9 +47,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hola! Me llamo Juan Ignacio Fulponi y soy economista (tesis pendiente). Tengo experiencia en análisis de datos, creación de dashboards, data viz y estructuras geoespaciales en R. Trabajé en diversas entidades del sector público y en numerosas empresas del sector privado, afianzando habilidades de trabajo en equipo y bajo presión.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  También me considero habilidoso en <mark>análisis macroeconómico</mark> y <mark>realización de asados</mark>.
 
 content:
   - title: Projects # Title for the section
