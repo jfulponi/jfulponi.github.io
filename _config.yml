@@ -45,7 +45,7 @@ youtube_username: juanif__
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hola! Me llamo Juan Ignacio Fulponi y soy economista (tesis pendiente). Tengo experiencia en análisis de datos, creación de dashboards, data viz y estructuras geoespaciales en R. Trabajé en diversas entidades del sector público y en numerosas empresas del sector privado, afianzando habilidades de trabajo en equipo y bajo presión.
 
