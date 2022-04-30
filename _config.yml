@@ -30,7 +30,7 @@ youtube_username: juanif__
 
 # Additional icon links
  additional_links:
- - title: Twitch
+ - title: Twitch 
     icon: fas fa-angle-double-right
     url: https://www.twitch.tv/juanif_/
 # - title: another link
