@@ -29,10 +29,10 @@ youtube_username: juanif__
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+ additional_links:
+ - title: Twitch
+    icon: fas fa-angle-double-right
+    url: https://www.twitch.tv/juanif_/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -56,18 +56,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Mobility patterns in Latin America
+        link: https://jfulponi.shinyapps.io/dashboardmovilidad/
+        link_text: Dashboard link
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Sample of the source code
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/jfulponi/OMU-Latam
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Data partnership between Facebook, the University of Buenos Aires and the Inter-American Development Bank.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
