@@ -7,14 +7,14 @@ version: 2
 
 # Personal info
 name: Juan Ignacio Fulponi
-title: Economista y Data Scientist
+title: economist - data scientist - researcher
 email: jfulponi@economicas.uba.ar
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: juanif__
+twitter_username: jfulponi
 github_username:  jfulponi
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -47,9 +47,9 @@ youtube_username: juanif__
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hola! Me llamo Juan Ignacio Fulponi y soy economista (tesis pendiente). Tengo experiencia en análisis de datos, creación de dashboards, data viz y estructuras geoespaciales en R. Trabajé en diversas entidades del sector público y en numerosas empresas del sector privado, afianzando habilidades de trabajo en equipo y bajo presión.
-
-  También me considero habilidoso en <mark>análisis macroeconómico</mark> y <mark>realización de asados</mark>.
+  Hello! My name is Juan Ignacio Fulponi and I'm an economist. I have experience in data analysis, dashboarding, data viz and geospatial structures in R with huge data streams. I worked in various public sector entities and in numerous private sector companies, strengthening teamwork skills and working under pressure. Recently, I have been involved in large research and consulting projects through the Inter-American Development Bank and the University of Buenos Aires.
+  
+  I also love to play <mark>basketball</mark> and cook <mark>barbecues</mark>.
 
 content:
   - title: Projects # Title for the section
