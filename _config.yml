@@ -47,9 +47,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Juan Ignacio Fulponi and I'm an economist. I have experience in data analysis, dashboarding, data viz and geospatial structures in R with huge data streams. I worked in various public sector entities and in numerous private sector companies, strengthening teamwork skills and working under pressure. Recently, I have been involved in large research and consulting projects through the Inter-American Development Bank and the University of Buenos Aires.
+  Hello! My name is Juan Ignacio Fulponi and I'm an economist. I have experience in data analysis, dashboarding, data viz and geospatial structures in R and Python with huge data streams. I worked in various public sector entities and in numerous private sector companies, strengthening teamwork skills and working under pressure. Recently, I have been involved in large research and consulting projects through the Inter-American Development Bank and the University of Buenos Aires.
   
-  I also love to play <mark>basketball</mark> and cook <mark>barbecues</mark>.
+  I also love to play <mark>basketball</mark> and I cook gorgeous <mark>barbecues</mark>. I live in Argentina but I am available to move immediately to another country, something that I would love to continue developing my professional career.
 
 content:
   - title: Projects # Title for the section
