@@ -99,21 +99,26 @@ content:
         quote: >
           Taking some processes of the Argentine public sector to the 21st century.
         description: | # this will include new lines to allow paragraphs
-          Approximately twenty thousand sheets of paper were printed each month in order to compile the construction price index at the Argentine National Institute of Statistics. Until I arrived. The modernization process in which I was in charge made it possible to eliminate several unnecessary and rudimentary tasks. The forms that companies used to fill out manually are now scheduled emails. The program for uploading prices created in 1993 in the Clipper language has been replaced by a beautiful Shiny application. Everyone knows that working for the Argentine State usually has obstacles and complications, but even so, approximately 25 hours of work per month were replaced by 143 lines of code in R!
+          Approximately twenty thousand sheets of paper were printed each month in order to compile the construction price index at the Argentine National Institute of Statistics. Until I arrived. The modernization process in which I was in charge made it possible to eliminate several unnecessary and rudimentary tasks. The forms that companies used to fill out manually are now scheduled emails. The program for uploading prices created in 1993 in the Clipper language has been replaced by a beautiful Shiny application. Everyone knows that working for the Argentine State usually has obstacles and complications, but even so, approximately 25 hours of handwork per month were replaced by 143 lines of code in R!
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: School of Transportation - University of San Martín
+        caption: 2022-2023
+        sub_title: MSC. in Transport Public Policy and Planning 
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Studying and exploring the problems of a sector with many deficits typical of a developing economy.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+          At the University of San Martín I not only perform as a postgraduate student but also carry out research tasks. It is an area where I am constantly developing theoretical and practical concepts applied to the transportation area, with a strong presence of data science.
+      - layout: left
+        title: School of Economics - University of Buenos Aires
+        caption: 2015-2021
+        sub_title: Degree in Economics
+        quote: >
+          Thinking about the economy from a modern point of view and generating links with research, teaching and volunteering.
+        description: | # this will include new lines to allow paragraphs
+          Without a doubt, studying economics in Argentina is a great challenge, especially since everyone knows but no one understands. Beyond the macroeconomic theoretical developments, it is necessary to study each one of the productive sectors to understand the economy as a global system. From the middle of the degree, I made every effort to study transport economics and contribute my grain of sand, both from an academic and teaching point of view. I graduated with a general average of 8 and a thesis graded with 10. The thesis is titled <mark>"Traffic congestion in the City of Buenos Aires: an economic analysis of its causes and consequences"</mark>.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -121,7 +126,7 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - [Drumming and music production](https://www.youtube.com/watch?v=9XsisAyBe4E)
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
