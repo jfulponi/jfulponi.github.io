@@ -87,7 +87,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           The model uses machine learning to predict trend production under a scenario of normal climatic variability, from which extreme deviations in yields or area losses are evaluated that are consistent with extreme climatic events, such as severe to extreme droughts and floods affecting large areas. From this point, the variables of production and harvest loss can be geolocated and an analysis dashboard of the final results can be created.
       - layout: top-middle
-        title: Side project _ Bondis (buses) in the Buenos Aires Metropolitan Region
+        title: Side project - Bondis (buses) in the Buenos Aires Metropolitan Region
         link: https://juanif.shinyapps.io/bondisamba/
         link_text: Dashboard BONDISAMBA link
         additional_links:
