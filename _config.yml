@@ -86,7 +86,23 @@ content:
           This project was created in conjunction with the "Socioeconomic Vulnerability Assessment" research group of the School of Economics of the University of Buenos Aires and with the support of the Massachusetts Institute of Technology (MIT).
         description: | # this will include new lines to allow paragraphs
           The model uses machine learning to predict trend production under a scenario of normal climatic variability, from which extreme deviations in yields or area losses are evaluated that are consistent with extreme climatic events, such as severe to extreme droughts and floods affecting large areas. From this point, the variables of production and harvest loss can be geolocated and an analysis dashboard of the final results can be created.
-       
+          
+      - layout: top-middle
+        title: [Side project] Bondis (buses) in the Buenos Aires Metropolitan Region
+        link: https://juanif.shinyapps.io/bondisamba/
+        link_text: Dashboard link
+        additional_links:
+           - title: Source Code
+             icon: fab fa-github
+             url: https://github.com/jfulponi/dashboard_SEPSI
+           #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+           #  icon: fab fa-github
+           #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This project was created in conjunction with the "Socioeconomic Vulnerability Assessment" research group of the School of Economics of the University of Buenos Aires and with the support of the Massachusetts Institute of Technology (MIT).
+        description: | # this will include new lines to allow paragraphs
+          The model uses machine learning to predict trend production under a scenario of normal climatic variability, from which extreme deviations in yields or area losses are evaluated that are consistent with extreme climatic events, such as severe to extreme droughts and floods affecting large areas. From this point, the variables of production and harvest loss can be geolocated and an analysis dashboard of the final results can be created.
+ 
       #- layout: top-middle
       #  title: [Side project] Bondis (buses) in the Buenos Aires Metropolitan Region
       #  link: https://juanif.shinyapps.io/bondisamba/
