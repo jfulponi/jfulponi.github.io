@@ -98,10 +98,8 @@ content:
            #- title:  Github page for project (eg. sproogen/modern-resume-theme)
            #  icon: fab fa-github
            #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          A lot of times we create some solutions for problems that not exist (yet) because we need to keep the brain in movement. 
-        description: | # this will include new lines to allow paragraphs
-          I love the governance of public data. I am very interested in how governments or big companies generate public information that can be processed, transformed and contextualized. In Argentina we have tons of public data but only a few "data communicators" or... data influencers? Social networks are not only for memes. I love to share [some graphs or analysis](https://twitter.com/jfulponi/status/1515451166511054850) of topics I like. For example, I have made a [Twitter bot](https://twitter.com/BondisBot) that tweets every hour the status of the bus system in Buenos Aires. The bot compiles public information from the Buenos Aires City Government and generates some interesting variables such as quantity of buses that are circulating above max speed. This data can be viewed in the Shiny dashbard too. 
+        quote: A lot of times we create some solutions for problems that not exist (yet) because we need to keep the brain in movement. 
+        description: I love the governance of public data. I am very interested in how governments or big companies generate public information that can be processed, transformed and contextualized. In Argentina we have tons of public data but only a few "data communicators" or... data influencers? Social networks are not only for memes. I love to share [some graphs or analysis](https://twitter.com/jfulponi/status/1515451166511054850) of topics I like. For example, I have made a [Twitter bot](https://twitter.com/BondisBot) that tweets every hour the status of the bus system in Buenos Aires. The bot compiles public information from the Buenos Aires City Government and generates some interesting variables such as quantity of buses that are circulating above max speed. This data can be viewed in the Shiny dashbard too. 
    
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
