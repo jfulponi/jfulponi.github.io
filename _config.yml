@@ -100,7 +100,7 @@ content:
           Another data science project.
         description: | # this will include new lines to allow paragraphs
           In the middle of the pandemic I was involved in this lovely little project in which I joined a group of engineers to do market analysis and project valuation for the implementation of electric buses in Panama. Some tasks I have done: | 1) Comprehensive economic analysis linked to transport and data issues. | 2)Elaboration and processing of large databases. | 3) Composition of dashboards for tracking electric bus routes in Panama in Shiny. | 4) Machine Learning in R. 
-        - layout: top-middle
+      - layout: top-middle
         title: Side project - Bondis (buses) in the Buenos Aires Metropolitan Region
         link: https://juanif.shinyapps.io/bondisamba/
         link_text: Dashboard BONDISAMBA link
