@@ -72,6 +72,22 @@ content:
           I started this project through a partnership with the University of Buenos Aires but we quickly realized that Facebook mobility data needed to be processed and analyzed in a more dedicated way. This is why he joined a consulting project at the IDB, working full time on the development of the dashboard and the reports for each of the cities involved. Machine learning and statistical mechanisms were used to estimate mean distances and origin and destination matrices from the raw data with R and the dashboard was created in a Shiny environment. This information is now part of CAF's Urban Mobility Observatory. I have learned many skills through this and been I'm very proud of having this in my portfolio.
       
       - layout: top-middle
+        title: Traffic congestion and Uber: a geoespatial analysis 
+        #link: https://jfulponi.shinyapps.io/dashboard_test/
+        #link_text: Dashboard link
+        #additional_links:
+        #   - title: Source Code
+        #     icon: fab fa-github
+        #     url: https://github.com/jfulponi/dashboard_SEPSI
+           #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+           #  icon: fab fa-github
+           #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          The Uber Team contacted me to make a empirical research to know if there is a statistical relationship between Uber trips and traffic jams in Buenos Aires.
+        description: | # this will include new lines to allow paragraphs
+          During this project, I have used a lot of geocomputational tools in R and SQL to homogenize both Uber and Waze spatial databases. Once I had the final dataframe, I built a <mark>xgboost</mark> model that predicts in which area of the region the jam is. This demostrates the structural differences between the City and the suburbs. Then, it is compared with the behavior of Uber trips throughout the entire region with various statistical tests such as correlation, logistic regressions and other machine learning classification models. The study concludes that there is no statistical relationship between Uber trips and congestion in Buenos Aires.
+          
+    - layout: top-middle
         title: Drought and Flood Loss Assessment System
         link: https://jfulponi.shinyapps.io/dashboard_test/
         link_text: Dashboard link
@@ -86,6 +102,7 @@ content:
           This project was created in conjunction with the "Socioeconomic Vulnerability Assessment" research group of the School of Economics of the University of Buenos Aires and with the support of the Massachusetts Institute of Technology (MIT).
         description: | # this will include new lines to allow paragraphs
           The model uses machine learning to predict trend production under a scenario of normal climatic variability, from which extreme deviations in yields or area losses are evaluated that are consistent with extreme climatic events, such as severe to extreme droughts and floods affecting large areas. From this point, the variables of production and harvest loss can be geolocated and an analysis dashboard of the final results can be created.
+     
       - layout: top-middle
         title: Side project - Bondis (buses) in the Buenos Aires Metropolitan Region
         link: https://juanif.shinyapps.io/bondisamba/
