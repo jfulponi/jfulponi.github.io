@@ -78,7 +78,7 @@ content:
         quote: >
           The Uber Team contacted me to make a empirical research to know if there is a statistical relationship between Uber trips and traffic jams in Buenos Aires.
         description: | # this will include new lines to allow paragraphs
-          During this project, I have used a lot of geocomputational tools in R and SQL to homogenize both Uber and Waze spatial databases. Once I had the final dataframe, I built a <mark>xgboost</mark> model that predicts in which area of the region the jam is. This demostrates the structural differences between the City and the suburbs. Then, it is compared with the behavior of Uber trips throughout the entire region with various statistical tests such as correlation, logistic regressions and other machine learning classification models. The study concludes that there is no statistical relationship between Uber trips and congestion in Buenos Aires.
+          During this project, I have used a lot of geocomputational tools in R and SQL to homogenize both Uber and Waze spatial databases. Once I had the final dataframe, I built a xgboost model that predicts in which area of the region the jam is. This demostrates the structural differences between the City and the suburbs. Then, it is compared with the behavior of Uber trips throughout the entire region with various statistical tests such as correlation, logistic regressions and other machine learning classification models. The study concludes that there is no statistical relationship between Uber trips and congestion in Buenos Aires.
       - layout: top-middle
         title: Drought and Flood Loss Assessment System
         link: https://jfulponi.shinyapps.io/dashboard_test/
@@ -87,9 +87,6 @@ content:
            - title: Source Code
              icon: fab fa-github
              url: https://github.com/jfulponi/dashboard_SEPSI
-           #- title:  Github page for project (eg. sproogen/modern-resume-theme)
-           #  icon: fab fa-github
-           #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This project was created in conjunction with the "Socioeconomic Vulnerability Assessment" research group of the School of Economics of the University of Buenos Aires and with the support of the Massachusetts Institute of Technology (MIT).
         description: | # this will include new lines to allow paragraphs
