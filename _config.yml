@@ -71,7 +71,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project through a partnership with the University of Buenos Aires but we quickly realized that Facebook mobility data needed to be processed and analyzed in a more dedicated way. This is why he joined a consulting project at the IDB, working full time on the development of the dashboard and the reports for each of the cities involved. Machine learning and statistical mechanisms were used to estimate mean distances and origin and destination matrices from the raw data with R and the dashboard was created in a Shiny environment. This information is now part of CAF's Urban Mobility Observatory. I have learned many skills through this and been I'm very proud of having this in my portfolio.
       
-    - layout: top-middle
+      - layout: top-middle
         title: Traffic congestion and Uber: a geoespatial analysis 
         #link: https://jfulponi.shinyapps.io/dashboard_test/
         #link_text: Dashboard link
