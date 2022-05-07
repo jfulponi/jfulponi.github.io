@@ -120,6 +120,17 @@ content:
           Taking some processes of the Argentine public sector to the 21st century.
         description: | # this will include new lines to allow paragraphs
           Approximately twenty thousand sheets of paper were printed each month in order to compile the construction price index at the Argentine National Institute of Statistics. Until I arrived. The modernization process in which I was in charge made it possible to eliminate several unnecessary and rudimentary tasks. The forms that companies used to fill out manually are now scheduled emails. The program for uploading prices created in 1993 in the Clipper language has been replaced by a beautiful Shiny application. Everyone knows that working for the Argentine State usually has obstacles and complications, but even so, approximately 25 hours of handwork per month were replaced by 143 lines of code in R!
+      - layout: left
+        title: School of Engineering - University of Buenos Aires
+        link: https://cms.fi.uba.ar/uploads/ANEXO_CDAT_Propuesta_v4_d08f34c8a5.pdf
+        # link_text: boringcompany.com
+        sub_title: Professor and Researcher
+        caption: January 2022 - Present
+        quote: >
+          Teaching and resarching about transportation in Argentina with a quantitative and statistical approach.
+        description: | # this will include new lines to allow paragraphs
+          One of my tasks at the University of Buenos Aires is to teach a course on data science applied to transportation. In this course, I explain how to use R to make geospatial operations like any GIS software and how to use advanced statistical models in georeferenced databases. In addition to this, I am dedicated to researching new models and theories that can be applied to the transport sector in the region.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
