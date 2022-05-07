@@ -123,7 +123,7 @@ content:
       - layout: left
         title: School of Engineering - University of Buenos Aires
         link: https://cms.fi.uba.ar/uploads/ANEXO_CDAT_Propuesta_v4_d08f34c8a5.pdf
-        # link_text: boringcompany.com
+        link_text: Data Science Course Syllabus
         sub_title: Professor and Researcher
         caption: January 2022 - Present
         quote: >
