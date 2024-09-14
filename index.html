@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juan Ignacio Fulponi</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Azul marino claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #006064; /* Azul marino oscuro */
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #004d40;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #00796b;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h2 {
+            color: #006064;
+        }
+        footer {
+            background-color: #006064;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #006064;
+        }
+        /* Estilos para los botones */
+        .lang-button {
+            background-color: #006064;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .lang-button:hover {
+            background-color: #00796b;
+        }
+        /* Estilos para el botón de cargar proyectos */
+        #load-projects {
+            background-color: #006064;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        #load-projects:hover {
+            background-color: #00796b;
+        }
+    </style>
+    <script>
+        // Variable para almacenar el idioma actual
+        let currentLanguage = 'es';
+
+        // Contenido en diferentes idiomas
+        const content = {
+            'es': {
+                headerTitle: 'Juan Ignacio Fulponi',
+                headerSubtitle: 'Economista del Transporte y Científico de Datos Geoespaciales',
+                navAbout: 'Sobre Mí',
+                navProjects: 'Proyectos',
+                navGitHub: 'Repositorios de GitHub',
+                aboutTitle: 'Sobre Mí',
+                aboutText: '¡Bienvenido! Soy Juan Ignacio Fulponi, un economista del transporte y científico de datos geoespaciales apasionado por analizar y mejorar sistemas de transporte a través de insights basados en datos. Me especializo en utilizar tecnologías geoespaciales para optimizar rutas, reducir costos y mejorar la eficiencia de las redes de transporte.',
+                projectsTitle: 'Proyectos',
+                loadProjects: 'Cargar Proyectos',
+                githubTitle: 'Repositorios de GitHub',
+                githubText: 'Explora mi código y proyectos colaborativos en mi perfil de GitHub:',
+                footerText: '&copy; 2024 Juan Ignacio Fulponi',
+                projectsList: [
+                    {
+                        title: "Proyecto A",
+                        description: "Desarrollé un modelo geoespacial para optimizar rutas de tránsito urbano."
+                    },
+                    {
+                        title: "Proyecto B",
+                        description: "Analicé impactos económicos de políticas de transporte utilizando big data."
+                    },
+                    {
+                        title: "Proyecto C",
+                        description: "Creé mapas interactivos para monitoreo de tráfico en tiempo real."
+                    }
+                ]
+            },
+            'en': {
+                headerTitle: 'Juan Ignacio Fulponi',
+                headerSubtitle: 'Transportation Economist and Geospatial Data Scientist',
+                navAbout: 'About Me',
+                navProjects: 'Projects',
+                navGitHub: 'GitHub Repos',
+                aboutTitle: 'About Me',
+                aboutText: 'Welcome! I am Juan Ignacio Fulponi, a transportation economist and geospatial data scientist passionate about analyzing and improving transportation systems through data-driven insights. I specialize in utilizing geospatial technologies to optimize routes, reduce costs, and enhance the efficiency of transportation networks.',
+                projectsTitle: 'Projects',
+                loadProjects: 'Load Projects',
+                githubTitle: 'GitHub Repos',
+                githubText: 'Explore my code and collaborative projects on my GitHub profile:',
+                footerText: '&copy; 2024 Juan Ignacio Fulponi',
+                projectsList: [
+                    {
+                        title: "Project A",
+                        description: "Developed a geospatial model to optimize urban transit routes."
+                    },
+                    {
+                        title: "Project B",
+                        description: "Analyzed economic impacts of transportation policies using big data."
+                    },
+                    {
+                        title: "Project C",
+                        description: "Created interactive maps for real-time traffic monitoring."
+                    }
+                ]
+            },
+            'it': {
+                headerTitle: 'Juan Ignacio Fulponi',
+                headerSubtitle: 'Economista dei Trasporti e Data Scientist Geospaziale',
+                navAbout: 'Chi Sono',
+                navProjects: 'Progetti',
+                navGitHub: 'Repository GitHub',
+                aboutTitle: 'Chi Sono',
+                aboutText: 'Benvenuto! Sono Juan Ignacio Fulponi, un economista dei trasporti e data scientist geospaziale appassionato di analizzare e migliorare i sistemi di trasporto attraverso insights basati sui dati. Mi specializzo nell\'utilizzo di tecnologie geospaziali per ottimizzare percorsi, ridurre costi e migliorare l\'efficienza delle reti di trasporto.',
+                projectsTitle: 'Progetti',
+                loadProjects: 'Carica Progetti',
+                githubTitle: 'Repository GitHub',
+                githubText: 'Esplora il mio codice e i progetti collaborativi sul mio profilo GitHub:',
+                footerText: '&copy; 2024 Juan Ignacio Fulponi',
+                projectsList: [
+                    {
+                        title: "Progetto A",
+                        description: "Sviluppato un modello geospaziale per ottimizzare le rotte del transito urbano."
+                    },
+                    {
+                        title: "Progetto B",
+                        description: "Analizzato gli impatti economici delle politiche di trasporto utilizzando big data."
+                    },
+                    {
+                        title: "Progetto C",
+                        description: "Creato mappe interattive per il monitoraggio del traffico in tempo reale."
+                    }
+                ]
+            }
+        };
+
+        // Función para cambiar el idioma
+        function changeLanguage(lang) {
+            currentLanguage = lang;
+            document.getElementById('header-title').innerText = content[lang].headerTitle;
+            document.getElementById('header-subtitle').innerText = content[lang].headerSubtitle;
+            document.getElementById('nav-about').innerText = content[lang].navAbout;
+            document.getElementById('nav-projects').innerText = content[lang].navProjects;
+            document.getElementById('nav-github').innerText = content[lang].navGitHub;
+            document.getElementById('about-title').innerText = content[lang].aboutTitle;
+            document.getElementById('about-text').innerText = content[lang].aboutText;
+            document.getElementById('projects-title').innerText = content[lang].projectsTitle;
+            document.getElementById('load-projects').innerText = content[lang].loadProjects;
+            document.getElementById('github-title').innerText = content[lang].githubTitle;
+            document.getElementById('github-text').innerHTML = content[lang].githubText + ' <a href="https://github.com/tu-usuario-github" target="_blank">github.com/tu-usuario-github</a>';
+            document.getElementById('footer-text').innerHTML = content[lang].footerText;
+            // Limpiar proyectos cargados previamente
+            document.getElementById('projects-list').innerHTML = '';
+        }
+
+        // Función para cargar proyectos dinámicamente
+        function loadProjects() {
+            const lang = currentLanguage; // Idioma actual
+            const projects = content[lang].projectsList;
+
+            const projectsSection = document.getElementById('projects-list');
+            projectsSection.innerHTML = ''; // Limpiar la lista antes de cargar
+
+            projects.forEach(project => {
+                const li = document.createElement('li');
+                li.innerHTML = `<strong>${project.title}:</strong> ${project.description}`;
+                projectsSection.appendChild(li);
+            });
+        }
+
+        // Cargar idioma predeterminado al cargar la página
+        window.onload = function() {
+            changeLanguage('es');
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1 id="header-title"></h1>
+    <p id="header-subtitle"></p>
+    <!-- Botones para cambiar de idioma -->
+    <div>
+        <button class="lang-button" onclick="changeLanguage('es')">ES</button>
+        <button class="lang-button" onclick="changeLanguage('en')">EN</button>
+        <button class="lang-button" onclick="changeLanguage('it')">IT</button>
+    </div>
+</header>
+
+<nav>
+    <a href="#about" id="nav-about"></a>
+    <a href="#projects" id="nav-projects"></a>
+    <a href="#github" id="nav-github"></a>
+</nav>
+
+<section id="about">
+    <h2 id="about-title"></h2>
+    <p id="about-text"></p>
+</section>
+
+<section id="projects">
+    <h2 id="projects-title"></h2>
+    <button id="load-projects" onclick="loadProjects()"></button>
+    <ul id="projects-list">
+        <!-- Los proyectos se agregarán dinámicamente aquí -->
+    </ul>
+</section>
+
+<section id="github">
+    <h2 id="github-title"></h2>
+    <p id="github-text"></p>
+</section>
+
+<footer>
+    <p id="footer-text"></p>
+</footer>
+
+</body>
+</html>
