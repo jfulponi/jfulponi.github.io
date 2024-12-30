@@ -19,7 +19,7 @@ format-links: false
 format:
   html:
     theme:
-      light: cosmo
+      light: quartz
       dark: darkly
     css: styles.css
     link-external-newwindow: true
