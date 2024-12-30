@@ -25,7 +25,7 @@ format:
     link-external-newwindow: true
     canonical-url: true
   PrettyPDF-pdf:
-    keep-tex: true
+    pdf-engine: pdflatex
 resources:
   - CNAME
 
