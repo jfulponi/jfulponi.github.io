@@ -28,7 +28,6 @@ def pre_render():
         keywords = ', '.join([DEFAULT_TEXT_VAR])
         development_profile = {
             "website": {
-                "site-url": custom_domain,
                 "page-footer": {
                     "center": [
                         {
