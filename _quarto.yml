@@ -24,7 +24,8 @@ format:
     css: styles.css
     link-external-newwindow: true
     canonical-url: true
-  pdf: PrettyPDF
+  PrettyPDF-pdf:
+    keep-tex: true
 resources:
   - CNAME
 
