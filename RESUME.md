@@ -10,7 +10,7 @@ Dedicated data scientist with expertise in transportation planning, data-driven 
 
 ## Work Experience
 
-### Transportation planner, ALEPH SRL (Firenze, Italy)
+### ALEPH SRL (Firenze, Italy)
 *Transportation Consultant – Data Scientist and Transportation Planning*
 **March 2024 - Present*
 - Wide-effects impact evaluation.
@@ -18,7 +18,7 @@ Dedicated data scientist with expertise in transportation planning, data-driven 
 - Macro and Micro analysis for road, High-Speed trains and infrastructure projects and viability analysis.
 
 
-### Transportation Consultant, World Bank Group (Remote - USA)  
+### World Bank Group (Remote - USA)  
 *Transportation Planning*  
 *November 2022 – Present*  
 Projects:
@@ -27,38 +27,41 @@ Projects:
 - Support in day-to-day operations of transportation planning in several projects in Latin America and Africa.
 - Team leading, follow-ups with government authorities, multidisciplinary work.
 
-### Data Scientist, World Bank Group (Remote - USA)
+### World Bank Group - DDP (Remote - USA)
 *Development Data Partnership*  
 *March 2022 – June 2023*  
 - Lead data science initiatives integrating R and Python with open-source libraries such as Spark, Apache Sedona, and Shiny.  
 - Optimize processes and enhance documentation to increase operational efficiency.  
 - Collaborate with partners to deliver impactful insights for global development.
 
-### External Consultant – Data Scientist, Inter-American Development Bank  
+###  Data Scientist, Inter-American Development Bank 
+*External Consultant*
 *April 2022 – June 2023*  
 - *Data Partnership with Veraset*. Consulting and research to obtain mobility patterns for the cities involved in the Urban Mobility Observatory of CAF and IDB. Cellphone and GPS data was used to obtain Origin and Destination matrices, mean distances between administrative regions and modal split inference. Sparklyr, Geospark, tidyverse, S3, tmaps and Leaflet.
 - *Data Partnership with Facebook*. Consulting and research to obtain mobility patterns for 17 Latin American cities. Facebook geospatial database processing. Interpretation of the results and visualization. Programming language used: R and Python.
 
-### Product Owner, National Institute of Statistics and Censuses (INDEC)  
+### National Institute of Statistics and Censuses (INDEC)
+*Product Owner*
 *November 2021 – March 2022*  
 - Directed modernization projects for processing construction cost data using C#, R, and SQL.
 
 ### Logistical Intensity Indicator - Project with IDB, GCBA and San Martín University (UNSAM)
-*November 2021 – December 2021*  
 *Data analyst in GIS and database processing*
+*November 2021 – December 2021*  
 - Construction of the Logistics Intensity Indicator for the City of Buenos Aires through the integration of heterogeneous databases, such as Waze, TomTom, Open Data of the GCBA, Open Street Maps. Processing and homogenization. Presentation of data.
 
-UBER
-*November 2021 – March 2022*  
+### UBER
 *External consultant - Data Scientist*
+*November 2021 – March 2022*  
 - *Research project*: effect of UBER trips on traffic congestion in the Metropolitan Region of Buenos Aires. Use of Geospatial and econometric Machine Learning tools with R. Homogenization of transport and mobility databases.
 
-### Data Scientist, Alphacast  
+### Alphacast
+*Data Scientist*
 *June 2021 – October 2021*  
 - Automated data collection workflows using Python for various public and private sources.
 
-### Economist and Impact Evaluator, City of Buenos Aires  
-*Transportation Department*  
+### Transportation Department - Buenos Aires City
+*Transportation economist*  
 *February 2017 – December 2019*  
 - Analyzed transportation projects, developed indicators, and conducted feasibility studies.
 
@@ -78,7 +81,7 @@ UBER
 - **Visualization:** Shiny, Power BI, QGIS, Blender, 
 - **Other Tools:** Excel, Photoshop.  
 - **Languages:**
-  -  English (C2 Proficient).
+  -  English (C2 Proficient)
   -  Italian (intermediate)
   -  Spanish (native)
 
