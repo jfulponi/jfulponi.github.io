@@ -6,26 +6,26 @@ Transportation Economist and Data Scientist
 | [github.com/jfulponi](https://github.com/jfulponii)  
 
 ## About Me
-Dedicated data scientist with expertise in transportation planning, data-driven decision-making, and economic analysis. Proficient in R, Python, and SQL, with extensive experience in leveraging advanced data analysis techniques to inform public policy and optimize operations. Passionate about exploring innovative solutions to urban mobility challenges.
+Dedicated data scientist with expertise in transportation planning, data-driven decision-making, and economic analysis. Proficient in R, Python, and SQL, with extensive experience in leveraging advanced data analysis techniques to inform public policy and optimize operations. Passionate about exploring innovative solutions to urban mobility challenges.  
 
 ## Work Experience
 
 ### ALEPH SRL (Firenze, Italy)
-*Transportation Consultant – Data Scientist and Transportation Planning*
-**March 2024 - Present*
-- Wide-effects impact evaluation.
-- Transport Engineering and Transportation Data Science.
-- Macro and Micro analysis for road, High-Speed trains and infrastructure projects and viability analysis.
+*Transportation Consultant – Data Scientist and Transportation Planning*  
+*March 2024 - Present*  
+- Wide-effects impact evaluation.  
+- Transport Engineering and Transportation Data Science.  
+- Macro and Micro analysis for road, High-Speed trains and infrastructure projects and viability analysis.  
 
 
 ### World Bank Group (Remote - USA)  
-*Transportation Planning*  
-*November 2022 – Present*  
-Projects:
-- Measuring the impact of public investment in transportation infrastructure on traffic congestion in Lima, Perú. Analysis of socioeconomic cost of traffic congestion with Waze data and accessibility of public transport through GTFS data in Lima.
-- Generation of Origin and Destination matrices through cellphone data for Buenos Aires, Argentina and Bogotá, Colombia. Calculation of basic transportation indicators such as mean distances between administrative regions, travel speeds and geospatial positioning
-- Support in day-to-day operations of transportation planning in several projects in Latin America and Africa.
-- Team leading, follow-ups with government authorities, multidisciplinary work.
+*Transportation Planning*   
+*November 2022 – Present*   
+Projects:  
+- Measuring the impact of public investment in transportation infrastructure on traffic congestion in Lima, Perú. Analysis of socioeconomic cost of traffic congestion with Waze data and accessibility of public transport through GTFS data in Lima.  
+- Generation of Origin and Destination matrices through cellphone data for Buenos Aires, Argentina and Bogotá, Colombia. Calculation of basic transportation indicators such as mean distances between administrative regions, travel speeds and geospatial positioning.  
+- Support in day-to-day operations of transportation planning in several projects in Latin America and Africa.  
+- Team leading, follow-ups with government authorities, multidisciplinary work.  
 
 ### World Bank Group - DDP (Remote - USA)
 *Development Data Partnership*  
@@ -41,29 +41,29 @@ Projects:
 - *Data Partnership with Facebook*. Consulting and research to obtain mobility patterns for 17 Latin American cities. Facebook geospatial database processing. Interpretation of the results and visualization. Programming language used: R and Python.
 
 ### National Institute of Statistics and Censuses (INDEC)
-*Product Owner*
-*November 2021 – March 2022*  
-- Directed modernization projects for processing construction cost data using C#, R, and SQL.
+*Product Owner*  
+*November 2021 – March 2022*    
+- Directed modernization projects for processing construction cost data using C#, R, and SQL.  
 
 ### Logistical Intensity Indicator - Project with IDB, GCBA and San Martín University (UNSAM)
-*Data analyst in GIS and database processing*
-*November 2021 – December 2021*  
-- Construction of the Logistics Intensity Indicator for the City of Buenos Aires through the integration of heterogeneous databases, such as Waze, TomTom, Open Data of the GCBA, Open Street Maps. Processing and homogenization. Presentation of data.
+*Data analyst in GIS and database processing*  
+*November 2021 – December 2021*   
+- Construction of the Logistics Intensity Indicator for the City of Buenos Aires through the integration of heterogeneous databases, such as Waze, TomTom, Open Data of the GCBA, Open Street Maps. Processing and homogenization. Presentation of data.  
 
 ### UBER
-*External consultant - Data Scientist*
-*November 2021 – March 2022*  
-- *Research project*: effect of UBER trips on traffic congestion in the Metropolitan Region of Buenos Aires. Use of Geospatial and econometric Machine Learning tools with R. Homogenization of transport and mobility databases.
+*External consultant - Data Scientist*  
+*November 2021 – March 2022*   
+- *Research project*: effect of UBER trips on traffic congestion in the Metropolitan Region of Buenos Aires. Use of Geospatial and econometric Machine Learning tools with R. Homogenization of transport and mobility databases.  
 
 ### Alphacast
-*Data Scientist*
-*June 2021 – October 2021*  
-- Automated data collection workflows using Python for various public and private sources.
+*Data Scientist*  
+*June 2021 – October 2021*   
+- Automated data collection workflows using Python for various public and private sources.  
 
 ### Transportation Department - Buenos Aires City
 *Transportation economist*  
 *February 2017 – December 2019*  
-- Analyzed transportation projects, developed indicators, and conducted feasibility studies.
+- Analyzed transportation projects, developed indicators, and conducted feasibility studies.  
 
 ## Education
 
