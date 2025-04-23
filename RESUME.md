@@ -3,16 +3,24 @@ Transportation Economist and Data Scientist
 | [jfulponi@economicas.uba.ar](mailto:jfulponi@economicas.uba.ar)  
 | [+39 320 2959111](tel:+393202959111)  
 | [linkedin.com/in/jfulponi](https://www.linkedin.com/in/jfulponi)  
-| [github.com/jfulponi](https://github.com/jfulponii)  
+| [github.com/jfulponi](https://github.com/jfulponi)
+| 📍 Prato, Toscana, Italia
 
 ## About Me
-Dedicated data scientist with expertise in transportation planning, data-driven decision-making, and economic analysis. Proficient in R, Python, and SQL, with extensive experience in leveraging advanced data analysis techniques to inform public policy and optimize operations. Passionate about exploring innovative solutions to urban mobility challenges.  
+Dedicated Economist and Data Scientist with expertise in transportation planning, data-driven decision-making, and economic analysis. Proficient in R, Python, and SQL, with extensive experience in leveraging advanced data analysis techniques to inform public policy and optimize operations. Passionate about exploring innovative solutions to urban mobility and transport challenges.  
 
 ## Work Experience
 
+### REDAS ENGINEERING (Milano, Italy)
+*Transportation Economist - Data Science*
+*December 2024 - April 2025*
+- Impact evaluation and economic feasibility for big infrastructure and transport projects across Italy.
+- Transport Economics with Data Science background.
+- Day-to-day operations support.
+
 ### ALEPH SRL (Firenze, Italy)
 *Transportation Consultant – Data Scientist and Transportation Planning*  
-*March 2024 - Present*  
+*March 2024 - December 2024*  
 - Wide-effects impact evaluation.  
 - Transport Engineering and Transportation Data Science.  
 - Macro and Micro analysis for road, High-Speed trains and infrastructure projects and viability analysis.  
