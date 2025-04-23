@@ -3,7 +3,7 @@ Transportation Economist and Data Scientist
 | [jfulponi@economicas.uba.ar](mailto:jfulponi@economicas.uba.ar)  
 | [+39 320 2959111](tel:+393202959111)  
 | [linkedin.com/in/jfulponi](https://www.linkedin.com/in/jfulponi)  
-| [github.com/jfulponi](https://github.com/jfulponi)
+| [github.com/jfulponi](https://github.com/jfulponi) 
 | 📍 Prato, Toscana, Italia
 
 ## About Me
