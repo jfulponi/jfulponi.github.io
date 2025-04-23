@@ -75,7 +75,7 @@ Projects:
 
 ## Education
 
-### MSc in Transport Economics, Planning, and Operation  
+### MSc in Transport Economics, Planning, and Operation of Urban and Metropolitan Transport
 *University of Pablo de Olavide, Seville, Spain*  
 *Graduated in 2023*  
 
@@ -85,9 +85,11 @@ Projects:
 - Thesis: "Traffic congestion in Buenos Aires: an economic analysis of its causes and consequences" (Grade: 10/10).
 
 ## Skills
-- **Data Science:** R, Python, SQL, Spark.  
-- **Visualization:** Shiny, Power BI, QGIS, Blender, 
-- **Other Tools:** Excel, Photoshop.  
+- **Data Science / Development:**
+  - *Advanced*: R, Python, SQL (Postgres, SQLite, Spatialite, PostGIS, OracleO), Spark (Sparklyr and PySpark), Apache Sedona, Docker, Kubernetes, Linux, AWS and Google Cloud Services.
+- **Visualization:** Shiny, Power BI, QGIS, Blender.
+- **Other Tools:**
+  - *Advanced*: Office (Word, Excel, PowerPoint), Photoshop.  
 - **Languages:**
   -  English (C2 Proficient)
   -  Italian (intermediate)
@@ -104,7 +106,8 @@ Projects:
 - Fulponi, Juan Ignacio & Lupín, Beatriz (2015). Application of differential equations in the Samuelson-Solow version of the Phillips Curve. Paper presented at the XV Page 3 National Conference on Technology applied to University Mathematics Education. IADCOM. CABA, 25-26 June 2015.
 
 ## Interests
-- Urban Mobility  
+- Urban Mobility
+- Railways
 - Open-Source Projects  
 - Academic Research
 - Drawing, 2D and 3D animation
