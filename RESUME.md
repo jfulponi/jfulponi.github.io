@@ -98,7 +98,8 @@ Office (Word, Excel, PowerPoint), Photoshop
 ## 📚 Scientific Publications  
 
 - **Fulponi, J.I.**, Ivarsson, E., & Stokenberga, A. (2023). [The COVID-19 Mark on Urban Mobility: A Tale of Two Cities’ Journey to Recovery](https://ideas.repec.org/p/wbk/wbrwps/10484.html). *World Bank Policy Research Working Paper 10484*.  
-- **Fulponi, J.I.**, Ivarsson, E., González, K., & Stokenberga, A. (2024). [Leveraging Big Data to Understand Women’s Mobility in Buenos Aires](https://ideas.repec.org/p/wbk/wbrwps/10662.html). *World Bank Policy Research Working Paper 10662*.  
+- **Fulponi, J.I.**, Ivarsson, E., González, K., & Stokenberga, A. (2024). [Leveraging Big Data to Understand Women’s Mobility in Buenos Aires](https://ideas.repec.org/p/wbk/wbrwps/10662.html). *World Bank Policy Research Working Paper 10662*.
+- Abad, J., Moleres, C., **Fulponi, J. I.**, Dobrusky, F., Pérez Martín, J., Sánchez, J., Fiadone, R., Suyai Mendiberri, L., Parisi, M., Spadaro, P., & Pipicello, T. (2022). *Distribución urbana de mercancías en la Ciudad Autónoma de Buenos Aires: propuestas para la innovación en políticas públicas en infraestructura, marco regulatorio y procesos logísticos*. [https://doi.org/10.18235/0004466](https://doi.org/10.18235/0004466)
 - **Fulponi, J.I.** & Moleres, C.J. (2022). [Facebook data for OD matrix estimation in Latin America](https://publications.iadb.org/es/metodologia-para-el-estudio-de-la-movilidad-con-datos-de-facebook-generacion-de-matrices-origen). *IADB & CAF*.  
 - **Fulponi, J.I.** (2022). [Traffic congestion in Buenos Aires: diagnosis and public policy recommendations](https://www.sciencedirect.com/science/article/pii/S2352146523001503). *AIIT Conference, Rome*.  
 - **Fulponi, J.I.** (2021). *Socioeconomic costs of road accidents in Buenos Aires*. *XVIII Argentine Roads Congress, Mendoza*.  
