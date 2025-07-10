@@ -77,7 +77,7 @@ Economist and Data Scientist with a strong background in transportation planning
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 ### Programming & Data Science  
 **Advanced:** R, Python, SQL (PostgreSQL, SQLite, Spatialite, PostGIS), Spark (PySpark, Sparklyr), Apache Sedona, Docker, Kubernetes, Linux, AWS, Google Cloud. 
@@ -101,8 +101,8 @@ Office (Word, Excel, PowerPoint), Photoshop
 
 ## Scientific Publications  
 
-- **Fulponi, J.I.**, Ivarsson, E., & Stokenberga, A. (2023). [The COVID-19 Mark on Urban Mobility: A Tale of Two Cities’ Journey to Recovery](https://ideas.repec.org/p/wbk/wbrwps/10484.html). *World Bank Policy Research Working Paper 10484*.
 - Stokenberga, A., Ivarsson Molina,L. & **Fulponi, J. I.** (2025). [A Net Cure or Curse ? Tracking the Impact of E-Commerce on Urban Freight Transport Intensity in Bogotá and Buenos Aires (English)](http://documents.worldbank.org/curated/en/099400106152369383) . Policy Research working paper no. WPS 10485; COVID-19 (Coronavirus) Washington, D.C. :World Bank Group. 
+- **Fulponi, J.I.**, Ivarsson, E., & Stokenberga, A. (2023). [The COVID-19 Mark on Urban Mobility: A Tale of Two Cities’ Journey to Recovery](https://ideas.repec.org/p/wbk/wbrwps/10484.html). *World Bank Policy Research Working Paper 10484*.
 - **Fulponi, J.I.**, Ivarsson, E., González, K., & Stokenberga, A. (2024). [Leveraging Big Data to Understand Women’s Mobility in Buenos Aires](https://ideas.repec.org/p/wbk/wbrwps/10662.html). *World Bank Policy Research Working Paper 10662*.
 - Abad, J., Moleres, C., **Fulponi, J. I.**, Dobrusky, F., Pérez Martín, J., Sánchez, J., Fiadone, R., Suyai Mendiberri, L., Parisi, M., Spadaro, P., & Pipicello, T. (2022). *Distribución urbana de mercancías en la Ciudad Autónoma de Buenos Aires: propuestas para la innovación en políticas públicas en infraestructura, marco regulatorio y procesos logísticos*. [https://doi.org/10.18235/0004466](https://doi.org/10.18235/0004466)
 - **Fulponi, J.I.** & Moleres, C.J. (2022). [Facebook data for OD matrix estimation in Latin America](https://publications.iadb.org/es/metodologia-para-el-estudio-de-la-movilidad-con-datos-de-facebook-generacion-de-matrices-origen). *IADB & CAF*.  
