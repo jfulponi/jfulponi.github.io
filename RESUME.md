@@ -1,8 +1,8 @@
 # Juan Ignacio Fulponi
 
-**Senior Data Scientist | Spatial Analytics & Transport Economics**
-📍 Prato, Tuscany, Italy
-[📧 jfulponi@economicas.uba.ar](mailto:jfulponi@economicas.uba.ar) | [📞 +39 320 2959111](tel:+393202959111)
+**Senior Data Scientist | Spatial Analytics & Transport Economics**  
+📍 Prato, Tuscany, Italy  
+[📧 jfulponi@economicas.uba.ar](mailto:jfulponi@economicas.uba.ar) | [📞 +39 320 2959111](tel:+393202959111)  
 [🔗 LinkedIn](https://www.linkedin.com/in/jfulponi) | [💻 GitHub](https://github.com/jfulponi)
 
 ---
