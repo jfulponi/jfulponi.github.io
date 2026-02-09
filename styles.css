@@ -1,0 +1,107 @@
+/* ── Layout ── */
+.nav-footer-center {
+    margin: 0;
+}
+
+main {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+}
+
+.nav-footer-left, .nav-footer-right {
+    display: none;
+}
+
+/* ── Header ── */
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    letter-spacing: -0.5px;
+}
+
+/* ── Section headings ── */
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 0.35rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+    margin-top: 1.2rem;
+}
+
+/* ── About section: tighter paragraphs ── */
+h2 + p,
+h2 + p + p {
+    line-height: 1.55;
+    margin-bottom: 0.6rem;
+}
+
+/* ── Experience bullet points ── */
+main ul {
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    padding-left: 1.3rem;
+}
+
+main ul li {
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+}
+
+/* ── Skills section: compact lines ── */
+main p strong {
+    color: inherit;
+}
+
+/* ── Horizontal rules (section dividers) ── */
+hr {
+    border: none;
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    margin: 1.8rem 0;
+}
+
+/* ── Links ── */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ── Publications list ── */
+main ul li em {
+    opacity: 0.85;
+}
+
+/* ── Footer download link ── */
+.nav-footer a {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* ── Print styles ── */
+@media print {
+    .no-print, .no-print *, footer, footer *, header, header * {
+        display: none !important;
+    }
+
+    main {
+        max-width: 100%;
+        padding: 0;
+    }
+}
