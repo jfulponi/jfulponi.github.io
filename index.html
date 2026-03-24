@@ -1,838 +1,974 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Juan Ignacio Fulponi | Senior Data Scientist — Spatial Analytics &amp; Transport Economics</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-691970859ec85052ddfe3d36dbdd1bdc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-565723ae75aee8c42a24bfebefa42e90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-691970859ec85052ddfe3d36dbdd1bdc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-G7H7C7P7N"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-G7H7C7P7N', { 'anonymize_ip': true});
-</script>
-<meta name="keywords" content="Quarto Resume">
-
-
-<link rel="stylesheet" href="styles.css">
-<link rel="canonical" href="https://jfulponi.github.io/index.html">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Ignacio Fulponi | Urban Data Science</title>
+    <meta name="description" content="Portfolio of Juan Ignacio Fulponi — Senior Data Scientist specializing in spatial analytics, transport economics, and urban mobility.">
+    <meta property="og:title" content="Juan Ignacio Fulponi | Urban Data Science Portfolio">
+    <meta property="og:description" content="Understanding urban systems through data: mobility, accessibility and spatial behavior.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2300d4aa'/><text x='16' y='22' font-family='Inter,sans-serif' font-size='16' font-weight='700' fill='%230a0a12' text-anchor='middle'>JF</text></svg>">
 </head>
+<body>
 
-<body class="fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+    <!-- ===================== NAVIGATION ===================== -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-brand">JIF<span class="brand-dot">.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#publications">Publications</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
 
-<div id="quarto-search-results"></div>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-
-<section id="juan-ignacio-fulponi" class="level1">
-<h1>Juan Ignacio Fulponi</h1>
-<p><strong>Senior Data Scientist | Spatial Analytics &amp; Transport Economics</strong> Prato, Tuscany, Italy <a href="mailto:jfulponi@economicas.uba.ar">jfulponi@economicas.uba.ar</a> | <a href="tel:+393202959111">+39 320 2959111</a> <a href="https://www.linkedin.com/in/jfulponi">LinkedIn</a> | <a href="https://github.com/jfulponi">GitHub</a></p>
-<hr>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>Senior Data Scientist and Economist with 7+ years of experience turning geospatial and mobility data into policy-relevant insights. I have worked with the <strong>World Bank</strong>, the <strong>Inter-American Development Bank</strong>, and private consultancies across <strong>Latin America, Europe, and Africa</strong>, leading projects that range from origin-destination matrix estimation to infrastructure impact evaluation.</p>
-<p>My work sits at the intersection of <strong>spatial econometrics, machine learning, and cloud computing</strong>. I design end-to-end pipelines — from raw GPS and mobile-phone traces to actionable indicators — using Python, R, Spark, and cloud platforms (AWS, GCP). I am driven by the challenge of making large-scale geospatial analysis reproducible, scalable, and useful for decision-makers.</p>
-<hr>
-</section>
-<section id="work-experience" class="level2">
-<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
-<section id="redas-engineering-transportation-economist-data-scientist" class="level3">
-<h3 class="anchored" data-anchor-id="redas-engineering-transportation-economist-data-scientist">REDAS Engineering — <em>Transportation Economist &amp; Data Scientist</em></h3>
-<p><strong>Milan, Italy | Dec 2024 – Apr 2025, Dec 2025 – Present</strong></p>
-<ul>
-<li>Designed feasibility studies and ex-ante impact evaluations for major road and rail infrastructure projects in Italy.</li>
-<li>Integrated geospatial econometric methods into traditional transport planning workflows, improving cost-benefit accuracy.</li>
-<li>Coordinated with clients and public agencies to align technical deliverables with regulatory requirements.</li>
-</ul>
-</section>
-<section id="aleph-srl-transportation-consultant" class="level3">
-<h3 class="anchored" data-anchor-id="aleph-srl-transportation-consultant">ALEPH SRL — <em>Transportation Consultant</em></h3>
-<p><strong>Florence, Italy | Mar 2024 – Dec 2024</strong></p>
-<ul>
-<li>Assessed macro- and micro-level impacts of road and high-speed rail investments using data-driven models.</li>
-<li>Developed demand forecasting and network simulation tools for regional transportation planning.</li>
-<li>Authored technical reports that informed public investment decisions at the regional level.</li>
-</ul>
-</section>
-<section id="world-bank-group-transportation-planning-consultant" class="level3">
-<h3 class="anchored" data-anchor-id="world-bank-group-transportation-planning-consultant">World Bank Group — <em>Transportation Planning Consultant</em></h3>
-<p><strong>Remote | Nov 2022 – Dec 2025</strong></p>
-<ul>
-<li>Estimated origin-destination matrices from mobile-phone data for Buenos Aires and Bogota, supporting metropolitan transport planning.</li>
-<li>Quantified congestion costs in Lima by fusing Waze, GTFS, and GPS data into a unified geospatial framework.</li>
-<li>Collaborated with government agencies in Latin America and Sub-Saharan Africa to translate analytical products into transport policy.</li>
-</ul>
-</section>
-<section id="world-bank-group-development-data-partnership" class="level3">
-<h3 class="anchored" data-anchor-id="world-bank-group-development-data-partnership">World Bank Group — <em>Development Data Partnership</em></h3>
-<p><strong>Remote | Mar 2022 – Jun 2023</strong></p>
-<ul>
-<li>Engineered large-scale spatial data pipelines in Apache Spark and Sedona for global development use cases.</li>
-<li>Deployed production-ready analytical workflows in R and Python on AWS and GCP, serving multiple partner organizations.</li>
-<li>Contributed to the Partnership’s open-source toolkit for geospatial data processing.</li>
-</ul>
-</section>
-<section id="inter-american-development-bank-external-consultant" class="level3">
-<h3 class="anchored" data-anchor-id="inter-american-development-bank-external-consultant">Inter-American Development Bank — <em>External Consultant</em></h3>
-<p><strong>Remote | Apr 2022 – Jun 2023</strong></p>
-<ul>
-<li>Processed GPS and mobile-phone data (Veraset, Meta) to generate origin-destination matrices and modal-split estimates across 17 Latin American cities.</li>
-<li>Applied spatial econometric and machine-learning models to characterize urban mobility patterns at scale.</li>
-<li>Built reproducible R/Python pipelines for automated visualization and reporting.</li>
-</ul>
-</section>
-<section id="uber-external-consultant" class="level3">
-<h3 class="anchored" data-anchor-id="uber-external-consultant">Uber — <em>External Consultant</em></h3>
-<p><strong>Buenos Aires, Argentina | 2021 – 2022</strong></p>
-<ul>
-<li>Evaluated the causal impact of ride-hailing on urban congestion using econometric and machine-learning models in R.</li>
-</ul>
-</section>
-<section id="indec-national-statistics-institute-product-owner" class="level3">
-<h3 class="anchored" data-anchor-id="indec-national-statistics-institute-product-owner">INDEC (National Statistics Institute) — <em>Product Owner</em></h3>
-<p><strong>Argentina | 2021 – 2022</strong></p>
-<ul>
-<li>Led the modernization of national statistics production workflows, migrating legacy processes to SQL, R, and C#.</li>
-</ul>
-</section>
-<section id="city-of-buenos-aires-transportation-economist" class="level3">
-<h3 class="anchored" data-anchor-id="city-of-buenos-aires-transportation-economist">City of Buenos Aires — <em>Transportation Economist</em></h3>
-<p><strong>Argentina | 2017 – 2019</strong></p>
-<ul>
-<li>Conducted feasibility studies, demand analysis, and cost-benefit evaluations for urban transport infrastructure projects.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><strong>MSc in Transport Economics, Planning &amp; Operations</strong> University of Pablo de Olavide | Seville, Spain | 2023</p>
-<p><strong>BA in Economics (Honors)</strong> University of Buenos Aires GPA: 8/10 | Thesis on congestion economics (10/10)</p>
-<hr>
-</section>
-<section id="technical-skills" class="level2">
-<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
-<p><strong>Languages &amp; Frameworks:</strong> Python (GeoPandas, PyTorch, Scikit-learn), R (Tidymodels, INLA, sf), SQL (PostGIS, BigQuery), C# <strong>Big Data &amp; Cloud:</strong> Apache Spark, Apache Sedona, Docker, Kubernetes, AWS, Google Cloud, Databricks <strong>Spatial Analysis:</strong> Spatial Econometrics, GeoAI, OD Matrix Estimation, Network Analysis <strong>Visualization:</strong> Shiny, Power BI, QGIS, Leaflet, CARTO, Kepler.gl, Blender <strong>Methods:</strong> Causal Inference, Machine Learning, Bayesian Modeling (INLA), Spatial Statistics</p>
-<section id="languages" class="level3">
-<h3 class="anchored" data-anchor-id="languages">Languages</h3>
-<ul>
-<li>English: C2 (Proficient)</li>
-<li>Spanish: Native</li>
-<li>Italian: Intermediate</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="selected-publications" class="level2">
-<h2 class="anchored" data-anchor-id="selected-publications">Selected Publications</h2>
-<ul>
-<li><strong>Fulponi, J.I.</strong>, Tartaglia, M., &amp; Nourbakhsh, S. (2025, in press). <a href="https://link.springer.com/book/9783032175489">Unpacking the Impact of High-Speed Rail on the Short-Term Rental Market: A Machine Learning Approach Using Airbnb Data in Italy</a>. <em>Proceedings of the 5th International Symposium on High-Speed Rail Socioeconomic Impacts, University of Naples Federico II, UIC</em>.</li>
-<li>Stokenberga, A., Ivarsson Molina, L. &amp; <strong>Fulponi, J. I.</strong> (2025). <a href="http://documents.worldbank.org/curated/en/099400106152369383">A Net Cure or Curse? Tracking the Impact of E-Commerce on Urban Freight Transport Intensity in Bogota and Buenos Aires</a>. <em>World Bank Policy Research Working Paper WPS 10485</em>.</li>
-<li><strong>Fulponi, J.I.</strong>, Ivarsson, E., &amp; Stokenberga, A. (2023). <a href="https://ideas.repec.org/p/wbk/wbrwps/10484.html">The COVID-19 Mark on Urban Mobility: A Tale of Two Cities’ Journey to Recovery</a>. <em>World Bank Policy Research Working Paper 10484</em>.</li>
-<li><strong>Fulponi, J.I.</strong>, Ivarsson, E., Gonzalez, K., &amp; Stokenberga, A. (2024). <a href="https://ideas.repec.org/p/wbk/wbrwps/10662.html">Leveraging Big Data to Understand Women’s Mobility in Buenos Aires</a>. <em>World Bank Policy Research Working Paper 10662</em>.</li>
-<li>Abad, J., Moleres, C., <strong>Fulponi, J. I.</strong>, et al.&nbsp;(2022). <a href="https://doi.org/10.18235/0004466">Urban freight distribution in Buenos Aires: public policy innovation proposals</a>. <em>IDB Publication</em>.</li>
-<li><strong>Fulponi, J.I.</strong> &amp; Moleres, C.J. (2022). <a href="https://publications.iadb.org/es/metodologia-para-el-estudio-de-la-movilidad-con-datos-de-facebook-generacion-de-matrices-origen">Methodology for mobility analysis with Facebook data: OD matrix generation</a>. <em>IDB &amp; CAF</em>.</li>
-<li><strong>Fulponi, J.I.</strong> (2022). <a href="https://www.sciencedirect.com/science/article/pii/S2352146523001503">Traffic congestion in Buenos Aires: diagnosis and public policy recommendations</a>. <em>Transportation Research Procedia, AIIT Conference, Rome</em>.</li>
-<li><strong>Fulponi, J.I.</strong> (2021). Socioeconomic costs of road accidents in Buenos Aires. <em>XVIII Argentine Roads Congress, Mendoza</em>.</li>
-<li><strong>Fulponi, J.I.</strong> (2016). <a href="http://nulan.mdp.edu.ar/2537">The Creation of the BCRA in Context</a>. <em>FACES Journal</em>, ISSN 0328-4050.</li>
-<li><strong>Fulponi, J.I.</strong> &amp; Lupin, B. (2015). Differential equations in the Samuelson-Solow model. <em>XV IADCOM Conference, Buenos Aires</em>.</li>
-</ul>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jfulponi\.github\.io\/");
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
-          }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="./index.pdf">
-<p><b>Download PDF</b></p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="mailto:jfulponi@economicas.uba.ar">
-<p>jfulponi@economicas.uba.ar</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://toknow.ai/posts/quarto-resume-template/">
-<p><i>Create your resume</i></p>
-</a>
-  </li>  
-</ul>
+    <!-- Mobile menu overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
     </div>
-    <div class="nav-footer-right">
-      &nbsp;
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+        <canvas id="networkCanvas"></canvas>
+        <div class="hero-content">
+            <p class="hero-greeting anim-fade-up">Hello, I'm</p>
+            <h1 class="hero-name anim-fade-up delay-1">Juan Ignacio<br>Fulponi</h1>
+            <p class="hero-title anim-fade-up delay-2">Senior Data Scientist</p>
+            <p class="hero-subtitle anim-fade-up delay-3">Understanding urban systems through data:<br>mobility, accessibility &amp; spatial behavior</p>
+            <div class="hero-cta anim-fade-up delay-4">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#publications" class="btn btn-outline">Publications</a>
+            </div>
+            <div class="hero-badges anim-fade-up delay-5">
+                <span class="badge">World Bank</span>
+                <span class="badge">Inter-American Dev Bank</span>
+                <span class="badge">7+ Years</span>
+                <span class="badge">8 Publications</span>
+            </div>
+        </div>
+        <div class="scroll-indicator anim-fade-up delay-5">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2 class="section-label">About</h2>
+                    <p class="about-lead">Economist and data scientist turning geospatial and mobility data into policy-relevant insights across Latin America, Europe, and Africa.</p>
+                    <p>My work sits at the intersection of <strong>spatial econometrics</strong>, <strong>machine learning</strong>, and <strong>cloud computing</strong>. I design end-to-end pipelines&mdash;from raw GPS and mobile-phone traces to actionable indicators&mdash;for organizations like the World Bank and the Inter-American Development Bank.</p>
+                    <p>Currently based in Prato, Italy, working on transport infrastructure impact evaluations and feasibility studies for major road and rail projects.</p>
+                    <div class="about-links">
+                        <a href="/papers/RESUME-PDF.pdf" class="btn btn-sm" target="_blank">Download CV</a>
+                        <a href="https://github.com/jfulponi" class="btn btn-sm btn-ghost" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://linkedin.com/in/jfulponi" class="btn btn-sm btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="7">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Years of Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="8">0</span>
+                        <span class="stat-label">Publications</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="17">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Cities Analyzed</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Continents</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-label reveal">Selected Projects</h2>
+            <p class="section-desc reveal">Each project follows a consistent structure: context, data, methodology, results, and tech stack.</p>
+
+            <!-- ---- Project 1: HSR (ESTRELLA) ---- -->
+            <article class="project project-featured reveal" id="project-hsr">
+                <div class="project-header">
+                    <span class="project-number">01</span>
+                    <div class="project-badge">Featured</div>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-1">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <path d="M20 60L40 20L60 45L80 15L100 50" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="40" cy="20" r="4" fill="rgba(255,255,255,0.8)"/>
+                                <circle cx="60" cy="45" r="4" fill="rgba(255,255,255,0.8)"/>
+                                <circle cx="80" cy="15" r="4" fill="rgba(255,255,255,0.8)"/>
+                                <path d="M10 65H110" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="4 4"/>
+                                <rect x="25" y="58" width="30" height="8" rx="2" fill="rgba(255,255,255,0.15)"/>
+                                <rect x="65" y="58" width="30" height="8" rx="2" fill="rgba(255,255,255,0.15)"/>
+                            </svg>
+                            <span class="visual-label">Spatial Econometrics + ML</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">High-Speed Rail &amp; the Short-Term Rental Market in Italy</h3>
+                        <p class="project-tagline">How high-speed rail reshapes local economies through the lens of Airbnb data</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Context</h4>
+                                <p>Italy's high-speed rail network has transformed inter-city connectivity, but its impact on local real estate and short-term rental markets remained poorly understood. This project investigates how HSR station proximity and accessibility shape rental prices and market dynamics using a machine learning approach.</p>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Data</h4>
+                                <ul>
+                                    <li>Airbnb listing data across Italian cities (prices, occupancy, characteristics)</li>
+                                    <li>HSR station locations, service frequency, and network accessibility</li>
+                                    <li>Socioeconomic and land-use covariates</li>
+                                    <li>OpenStreetMap infrastructure data</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Methodology</h4>
+                                <ul>
+                                    <li>Machine learning models (gradient boosting, random forests) for price prediction and feature importance</li>
+                                    <li>Spatial econometric models to isolate the causal effect of HSR accessibility</li>
+                                    <li>Heterogeneity analysis across city typologies and distance bands</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Key Results</h4>
+                                <ul>
+                                    <li>Quantified rental premium effects in proximity to HSR stations</li>
+                                    <li>Identified heterogeneous impacts across different city types and market segments</li>
+                                    <li>Provided evidence for integrated transport-land use policy design</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">GeoPandas</span>
+                            <span class="tech-tag">Spatial Econometrics</span>
+                            <span class="tech-tag">QGIS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#pub-hsr" class="btn btn-sm">View Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ---- Project 2: OD Matrices ---- -->
+            <article class="project reveal" id="project-od">
+                <div class="project-header">
+                    <span class="project-number">02</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-2">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <circle cx="30" cy="25" r="6" fill="rgba(255,255,255,0.5)" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+                                <circle cx="90" cy="20" r="6" fill="rgba(255,255,255,0.5)" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+                                <circle cx="60" cy="55" r="6" fill="rgba(255,255,255,0.5)" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+                                <circle cx="20" cy="60" r="4" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+                                <circle cx="100" cy="55" r="4" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+                                <line x1="30" y1="25" x2="90" y2="20" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <line x1="30" y1="25" x2="60" y2="55" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <line x1="90" y1="20" x2="60" y2="55" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <line x1="20" y1="60" x2="60" y2="55" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+                                <line x1="100" y1="55" x2="90" y2="20" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+                            </svg>
+                            <span class="visual-label">Big Data + Spatial Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Urban Mobility &amp; OD Matrices at Scale</h3>
+                        <p class="project-tagline">From raw mobile phone traces to metropolitan transport planning</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Context</h4>
+                                <p>Traditional household travel surveys are expensive and infrequent. This body of work develops methodologies to estimate origin-destination matrices from mobile phone and GPS data, enabling near-real-time understanding of urban mobility patterns across multiple Latin American cities.</p>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Data</h4>
+                                <ul>
+                                    <li>Mobile phone CDR data (Veraset, Meta/Facebook)</li>
+                                    <li>GPS traces and location data</li>
+                                    <li>GTFS transit feeds, Waze traffic reports</li>
+                                    <li>Census and socioeconomic data</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Methodology</h4>
+                                <ul>
+                                    <li>Large-scale spatial data pipelines using Apache Spark and Sedona</li>
+                                    <li>Trip detection and OD estimation algorithms</li>
+                                    <li>Modal split estimation and validation against survey data</li>
+                                    <li>Spatial econometric and ML models for mobility pattern characterization</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Key Results</h4>
+                                <ul>
+                                    <li>Generated OD matrices for Buenos Aires, Bogota, and 17+ Latin American cities</li>
+                                    <li>Enabled data-driven transport planning for metropolitan authorities</li>
+                                    <li>Contributed to open-source toolkit for geospatial data processing</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Apache Spark</span>
+                            <span class="tech-tag">Sedona</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">GCP</span>
+                            <span class="tech-tag">PostGIS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#pub-od" class="btn btn-sm">View Papers</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ---- Project 3: Women's Mobility ---- -->
+            <article class="project reveal" id="project-gender">
+                <div class="project-header">
+                    <span class="project-number">03</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-3">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <rect x="15" y="15" width="90" height="50" rx="4" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <rect x="20" y="45" width="12" height="15" rx="1" fill="rgba(255,255,255,0.3)"/>
+                                <rect x="36" y="35" width="12" height="25" rx="1" fill="rgba(255,255,255,0.5)"/>
+                                <rect x="52" y="25" width="12" height="35" rx="1" fill="rgba(255,255,255,0.4)"/>
+                                <rect x="68" y="40" width="12" height="20" rx="1" fill="rgba(255,255,255,0.3)"/>
+                                <rect x="84" y="30" width="12" height="30" rx="1" fill="rgba(255,255,255,0.5)"/>
+                            </svg>
+                            <span class="visual-label">Gender Analytics + Big Data</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Gender Gaps in Urban Mobility</h3>
+                        <p class="project-tagline">Using big data to reveal how women navigate Buenos Aires differently</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Context</h4>
+                                <p>Understanding gender differences in mobility is essential for equitable transport systems. This project leveraged large-scale data to map women's travel patterns in Buenos Aires, identifying systemic barriers and informing gender-responsive policy.</p>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Data</h4>
+                                <ul>
+                                    <li>Large-scale mobility datasets for Buenos Aires metropolitan area</li>
+                                    <li>Census and socioeconomic data, disaggregated by gender</li>
+                                    <li>Public transit network and service data</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Methodology</h4>
+                                <ul>
+                                    <li>Gender-disaggregated mobility indicator construction</li>
+                                    <li>Spatial analysis of trip patterns, distances, and mode choices</li>
+                                    <li>Statistical modeling of accessibility gaps</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Key Results</h4>
+                                <ul>
+                                    <li>Identified significant gender gaps in trip patterns, distances, and mode choices</li>
+                                    <li>Mapped spatial disparities in women's access to employment and services</li>
+                                    <li>Provided evidence-based recommendations for gender-responsive transport policy</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Big Data</span>
+                            <span class="tech-tag">Spatial Statistics</span>
+                            <span class="tech-tag">QGIS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#pub-gender" class="btn btn-sm">View Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ---- Project 4: COVID-19 Recovery ---- -->
+            <article class="project reveal" id="project-covid">
+                <div class="project-header">
+                    <span class="project-number">04</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-4">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <polyline points="15,55 30,50 45,60 55,30 65,35 75,20 85,25 95,15 105,18" stroke="rgba(255,255,255,0.7)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                                <polyline points="15,50 30,55 45,52 55,48 65,42 75,38 85,40 95,35 105,32" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+                                <line x1="55" y1="10" x2="55" y2="65" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="2 3"/>
+                                <text x="55" y="73" font-size="7" fill="rgba(255,255,255,0.4)" text-anchor="middle" font-family="Inter,sans-serif">COVID</text>
+                            </svg>
+                            <span class="visual-label">Time Series + Comparative Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">COVID-19 &amp; Urban Mobility Recovery</h3>
+                        <p class="project-tagline">Tracking how two cities found their way back to normal</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Context</h4>
+                                <p>The COVID-19 pandemic disrupted urban mobility worldwide. This project analyzed the recovery trajectories of two major cities, identifying how different communities and transport modes bounced back&mdash;and what changed permanently.</p>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Data</h4>
+                                <ul>
+                                    <li>Multi-source mobility data (pre- and post-pandemic)</li>
+                                    <li>Public transit ridership and service data</li>
+                                    <li>Socioeconomic and demographic indicators by zone</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Methodology</h4>
+                                <ul>
+                                    <li>Time series analysis of mobility recovery patterns</li>
+                                    <li>Spatial pattern recognition across neighborhoods</li>
+                                    <li>Comparative urban analysis between city typologies</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Key Results</h4>
+                                <ul>
+                                    <li>Documented asymmetric recovery patterns across neighborhoods and income groups</li>
+                                    <li>Highlighted lasting changes in commuting behavior and mode choice</li>
+                                    <li>Informed post-pandemic transport planning strategies</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Spatial Analysis</span>
+                            <span class="tech-tag">Time Series</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#pub-covid" class="btn btn-sm">View Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ---- Project 5: Congestion & Causal Impact ---- -->
+            <article class="project reveal" id="project-congestion">
+                <div class="project-header">
+                    <span class="project-number">05</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-5">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <path d="M10 40 Q30 38 40 40 Q50 42 60 40 Q70 38 80 40 Q90 42 110 40" stroke="rgba(255,255,255,0.6)" stroke-width="2" fill="none"/>
+                                <path d="M10 48 Q30 46 40 48 Q50 50 60 48 Q70 46 80 48 Q90 50 110 48" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" fill="none"/>
+                                <rect x="25" y="33" width="14" height="8" rx="2" fill="rgba(255,255,255,0.5)"/>
+                                <rect x="50" y="33" width="14" height="8" rx="2" fill="rgba(255,255,255,0.4)"/>
+                                <rect x="75" y="33" width="14" height="8" rx="2" fill="rgba(255,255,255,0.5)"/>
+                                <circle cx="95" cy="25" r="8" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="rgba(255,255,255,0.1)"/>
+                                <text x="95" y="28" font-size="7" fill="rgba(255,255,255,0.6)" text-anchor="middle" font-family="Inter,sans-serif">$</text>
+                            </svg>
+                            <span class="visual-label">Causal Inference + Econometrics</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Congestion Economics &amp; Causal Impact</h3>
+                        <p class="project-tagline">Measuring the true cost of traffic and the effects of ride-hailing</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Context</h4>
+                                <p>Urban congestion imposes massive economic costs, and ride-hailing services add complexity to the equation. This project combines congestion cost estimation in Buenos Aires and Lima with causal analysis of ride-hailing's impact on traffic, bridging academic research and policy.</p>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Data</h4>
+                                <ul>
+                                    <li>Traffic sensor data and Waze reports</li>
+                                    <li>GPS data and ride-hailing trip records</li>
+                                    <li>GTFS transit data, road network data</li>
+                                    <li>Socioeconomic and land-use indicators</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Methodology</h4>
+                                <ul>
+                                    <li>Causal inference using econometric identification strategies</li>
+                                    <li>Machine learning models for congestion prediction</li>
+                                    <li>Cost-benefit analysis framework</li>
+                                    <li>Geospatial data fusion from heterogeneous sources</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Key Results</h4>
+                                <ul>
+                                    <li>Estimated socioeconomic costs of congestion for Buenos Aires and Lima</li>
+                                    <li>Evaluated the causal impact of ride-hailing on urban congestion levels</li>
+                                    <li>Produced actionable policy recommendations adopted by city agencies</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Econometrics</span>
+                            <span class="tech-tag">Causal Inference</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">QGIS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#pub-congestion" class="btn btn-sm">View Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ---- Project 6: Open Data & Public Statistics ---- -->
+            <article class="project reveal" id="project-opendata">
+                <div class="project-header">
+                    <span class="project-number">06</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-6">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <!-- Open data / API icon -->
+                                <rect x="20" y="15" width="36" height="50" rx="3" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+                                <line x1="26" y1="25" x2="50" y2="25" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+                                <line x1="26" y1="31" x2="45" y2="31" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+                                <line x1="26" y1="37" x2="48" y2="37" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+                                <line x1="26" y1="43" x2="42" y2="43" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+                                <line x1="26" y1="49" x2="50" y2="49" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+                                <line x1="26" y1="55" x2="46" y2="55" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+                                <!-- Arrow to code block -->
+                                <path d="M60 40 L70 40" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+                                <defs><marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="rgba(255,255,255,0.4)"/></marker></defs>
+                                <!-- Code brackets -->
+                                <text x="82" y="34" font-size="11" fill="rgba(255,255,255,0.5)" font-family="monospace">{R}</text>
+                                <rect x="72" y="42" width="28" height="6" rx="1" fill="rgba(255,255,255,0.15)"/>
+                                <rect x="72" y="51" width="22" height="6" rx="1" fill="rgba(255,255,255,0.1)"/>
+                                <rect x="72" y="60" width="26" height="6" rx="1" fill="rgba(255,255,255,0.12)"/>
+                            </svg>
+                            <span class="visual-label">Open Source + Public APIs</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Open Data, Public Statistics &amp; Open-Source Tools</h3>
+                        <p class="project-tagline">Democratizing access to official statistics through code and open collaboration</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Context</h4>
+                                <p>Official statistics are the backbone of evidence-based policy, yet accessing and processing them programmatically remains a barrier for researchers and analysts. I am committed to bridging this gap&mdash;building open-source tools that lower the friction between national statistical offices and the data science community, and modernizing institutional data workflows from within.</p>
+                            </div>
+                            <div class="detail-block">
+                                <h4>istatR &mdash; R Package on CRAN</h4>
+                                <ul>
+                                    <li>Author and maintainer of <strong>istatR</strong>, an R package published on CRAN that provides a clean interface to the ISTAT (Italian National Institute of Statistics) API</li>
+                                    <li>Enables users to discover available datasets, explore their structure and dimensions, and retrieve statistical data directly into R</li>
+                                    <li>Built on <code>httr2</code>, <code>xml2</code>, <code>dplyr</code>, and <code>tibble</code> for a tidy, modern workflow</li>
+                                    <li>Apache 2.0 licensed&mdash;fully open source and community-driven</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>INDEC Modernization</h4>
+                                <ul>
+                                    <li>Led the modernization of production workflows at <strong>INDEC</strong> (Argentina's National Statistics Institute) as Product Owner</li>
+                                    <li>Migrated legacy statistical processes to reproducible pipelines using SQL, R, and C#</li>
+                                    <li>Improved data quality, traceability, and turnaround time for national statistics releases</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Open-Source Contributions</h4>
+                                <ul>
+                                    <li>Contributed to the World Bank <strong>Development Data Partnership</strong> open-source toolkit for geospatial data processing</li>
+                                    <li>Built reproducible R/Python pipelines for automated reporting at the IDB, designed for reuse across partner organizations</li>
+                                    <li>Advocate for open data standards and transparent, reproducible analytical workflows in public institutions</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">CRAN</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">httr2</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Open Source</span>
+                            <span class="tech-tag">Apache Spark</span>
+                        </div>
+                        <div class="project-orgs">
+                            <span class="org-tag">CRAN</span>
+                            <span class="org-tag">ISTAT</span>
+                            <span class="org-tag">INDEC</span>
+                            <span class="org-tag">World Bank DDP</span>
+                            <span class="org-tag">IDB</span>
+                        </div>
+                        <div class="project-links" style="margin-top: 16px;">
+                            <a href="https://cran.r-project.org/web/packages/istatR/index.html" class="btn btn-sm" target="_blank" rel="noopener">istatR on CRAN</a>
+                            <a href="https://github.com/jfulponi/istatR" class="btn btn-sm btn-outline" target="_blank" rel="noopener">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ---- Project 7: Teaching & Research ---- -->
+            <article class="project reveal" id="project-teaching">
+                <div class="project-header">
+                    <span class="project-number">07</span>
+                </div>
+                <div class="project-body">
+                    <div class="project-visual">
+                        <div class="project-visual-inner gradient-7">
+                            <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="project-icon">
+                                <!-- Book / lectern icon -->
+                                <rect x="25" y="18" width="35" height="44" rx="2" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+                                <line x1="42" y1="18" x2="42" y2="62" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+                                <line x1="30" y1="28" x2="38" y2="28" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <line x1="30" y1="33" x2="38" y2="33" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <line x1="30" y1="38" x2="36" y2="38" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                                <!-- Sigma / equation -->
+                                <text x="75" y="32" font-size="18" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-family="serif">&#x03A3;</text>
+                                <!-- Regression line -->
+                                <circle cx="65" cy="50" r="2" fill="rgba(255,255,255,0.3)"/>
+                                <circle cx="72" cy="46" r="2" fill="rgba(255,255,255,0.3)"/>
+                                <circle cx="78" cy="48" r="2" fill="rgba(255,255,255,0.3)"/>
+                                <circle cx="85" cy="42" r="2" fill="rgba(255,255,255,0.3)"/>
+                                <circle cx="92" cy="39" r="2" fill="rgba(255,255,255,0.3)"/>
+                                <line x1="62" y1="53" x2="95" y2="37" stroke="rgba(255,255,255,0.4)" stroke-width="1" stroke-dasharray="3 2"/>
+                            </svg>
+                            <span class="visual-label">Teaching + Applied Research</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Teaching &amp; Research in Transport Economics</h3>
+                        <p class="project-tagline">Bridging academia and practice across public and private institutions</p>
+
+                        <div class="project-details">
+                            <div class="detail-block">
+                                <h4>Teaching</h4>
+                                <ul>
+                                    <li>Transport economics: demand analysis, pricing, regulation, and welfare evaluation</li>
+                                    <li>Applied econometrics: causal inference, spatial econometrics, panel data methods</li>
+                                    <li>Quantitative methods for urban and regional analysis</li>
+                                    <li>Data science workflows applied to transport: Python, R, GIS</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Research &mdash; Public Sector</h4>
+                                <ul>
+                                    <li><strong>World Bank:</strong> OD matrix estimation, congestion costing, gendered mobility, post-COVID recovery analysis</li>
+                                    <li><strong>Inter-American Development Bank:</strong> urban freight innovation, mobile-phone mobility analytics across 17+ cities</li>
+                                    <li><strong>INDEC (National Statistics Institute):</strong> modernization of national statistics production, product ownership</li>
+                                    <li><strong>City of Buenos Aires:</strong> feasibility studies and cost-benefit evaluations for urban transit</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Research &mdash; Private Sector</h4>
+                                <ul>
+                                    <li><strong>REDAS Engineering:</strong> infrastructure impact evaluations, geospatial econometric methods for transport planning (Italy)</li>
+                                    <li><strong>ALEPH SRL:</strong> HSR and road investment assessment, demand forecasting, network simulation (Italy)</li>
+                                    <li><strong>Uber:</strong> causal impact of ride-hailing on urban congestion using econometric and ML models</li>
+                                </ul>
+                            </div>
+                            <div class="detail-block">
+                                <h4>Academic Background</h4>
+                                <ul>
+                                    <li>MSc in Transport Economics, Planning &amp; Operations &mdash; Universidad Pablo de Olavide, Seville</li>
+                                    <li>BA in Economics (Honors) &mdash; Universidad de Buenos Aires</li>
+                                    <li>Thesis on congestion economics (grade: 10/10)</li>
+                                    <li>8 publications in journals, conferences, and international policy outlets</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Transport Economics</span>
+                            <span class="tech-tag">Econometrics</span>
+                            <span class="tech-tag">Spatial Statistics</span>
+                            <span class="tech-tag">Causal Inference</span>
+                            <span class="tech-tag">Bayesian Modeling</span>
+                            <span class="tech-tag">R</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-orgs">
+                            <span class="org-tag">World Bank</span>
+                            <span class="org-tag">IDB</span>
+                            <span class="org-tag">INDEC</span>
+                            <span class="org-tag">Uber</span>
+                            <span class="org-tag">REDAS</span>
+                            <span class="org-tag">ALEPH</span>
+                            <span class="org-tag">UBA</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section class="section publications" id="publications">
+        <div class="container">
+            <h2 class="section-label reveal">Publications</h2>
+            <p class="section-desc reveal">Research papers and policy documents published with international organizations.</p>
+
+            <div class="pub-list">
+
+                <article class="pub-item reveal" id="pub-hsr">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--conference">Conference</span>
+                        <h3 class="pub-title">Unpacking the Impact of High-Speed Rail on the Short-Term Rental Market: A Machine Learning Approach Using Airbnb Data in Italy</h3>
+                        <p class="pub-authors"><strong>Fulponi, J.I.</strong>, Tartaglia, M., &amp; Nourbakhsh, S.</p>
+                        <p class="pub-venue"><em>Proceedings of the 5th International Symposium on HSR Socioeconomic Impacts</em>, UIC. (In press)</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link" data-paper="hsr-airbnb">View Paper</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-ecommerce">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--working-paper">Working Paper</span>
+                        <h3 class="pub-title">A Net Cure or Curse? Tracking the Impact of E-Commerce on Urban Freight Transport Intensity in Bogota and Buenos Aires</h3>
+                        <p class="pub-authors">Stokenberga, A., Ivarsson Molina, L. &amp; <strong>Fulponi, J.I.</strong></p>
+                        <p class="pub-venue"><em>World Bank Policy Research Working Paper 10485</em></p>
+                        <div class="pub-links">
+                            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099623406132522702" class="pub-link" target="_blank" rel="noopener">World Bank</a>
+                            <a href="#" class="pub-link" data-paper="ecommerce-freight">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-gender">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--working-paper">Working Paper</span>
+                        <h3 class="pub-title">Leveraging Big Data to Understand Women's Mobility in Buenos Aires</h3>
+                        <p class="pub-authors"><strong>Fulponi, J.I.</strong>, Ivarsson, E., Gonzalez, K., &amp; Stokenberga, A.</p>
+                        <p class="pub-venue"><em>World Bank Policy Research Working Paper 10662</em></p>
+                        <div class="pub-links">
+                            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099536503132412197" class="pub-link" target="_blank" rel="noopener">World Bank</a>
+                            <a href="#" class="pub-link" data-paper="women-mobility">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-covid">
+                    <div class="pub-year">2023</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--working-paper">Working Paper</span>
+                        <h3 class="pub-title">The COVID-19 Mark on Urban Mobility: A Tale of Two Cities' Journey to Recovery</h3>
+                        <p class="pub-authors"><strong>Fulponi, J.I.</strong>, Ivarsson, E., &amp; Stokenberga, A.</p>
+                        <p class="pub-venue"><em>World Bank Policy Research Working Paper 10484</em></p>
+                        <div class="pub-links">
+                            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099622406132515552" class="pub-link" target="_blank" rel="noopener">World Bank</a>
+                            <a href="#" class="pub-link" data-paper="covid-mobility">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-freight">
+                    <div class="pub-year">2022</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--report">Report</span>
+                        <h3 class="pub-title">Urban Freight Distribution in Buenos Aires: Public Policy Innovation Proposals</h3>
+                        <p class="pub-authors">Abad, J., Moleres, C., <strong>Fulponi, J.I.</strong>, et al.</p>
+                        <p class="pub-venue"><em>IDB Publication</em></p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link" data-paper="urban-freight">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-od">
+                    <div class="pub-year">2022</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--report">Methodology</span>
+                        <h3 class="pub-title">Methodology for Mobility Analysis with Facebook Data: OD Matrix Generation</h3>
+                        <p class="pub-authors"><strong>Fulponi, J.I.</strong> &amp; Moleres, C.J.</p>
+                        <p class="pub-venue"><em>IDB &amp; CAF</em></p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link" data-paper="facebook-od">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-congestion">
+                    <div class="pub-year">2022</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--journal">Journal</span>
+                        <h3 class="pub-title">Traffic Congestion in Buenos Aires: Diagnosis and Public Policy Recommendations</h3>
+                        <p class="pub-authors"><strong>Fulponi, J.I.</strong></p>
+                        <p class="pub-venue"><em>Transportation Research Procedia</em>, AIIT Conference, Rome</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link" data-paper="congestion-ba">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pub-item reveal" id="pub-accidents">
+                    <div class="pub-year">2021</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--conference">Conference</span>
+                        <h3 class="pub-title">Socioeconomic Costs of Road Accidents in Buenos Aires</h3>
+                        <p class="pub-authors"><strong>Fulponi, J.I.</strong></p>
+                        <p class="pub-venue"><em>XVIII Argentine Roads Congress</em>, Mendoza</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link" data-paper="road-accidents">PDF</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Paper viewer modal -->
+    <div class="modal" id="paperModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <div class="modal-body">
+                <iframe id="paperFrame" src="" title="Paper viewer"></iframe>
+                <div class="modal-fallback" id="modalFallback">
+                    <p>Paper PDF not yet available locally.</p>
+                    <p>Place the PDF in the <code>/papers/</code> directory and update the link.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
 
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-label reveal">Technical Skills</h2>
+            <div class="skills-grid">
 
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Languages &amp; Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">GeoPandas</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Tidymodels</span>
+                        <span class="skill-tag">INLA</span>
+                        <span class="skill-tag">sf</span>
+                    </div>
+                </div>
 
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Big Data &amp; Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">Apache Sedona</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Databricks</span>
+                        <span class="skill-tag">PostGIS</span>
+                        <span class="skill-tag">BigQuery</span>
+                    </div>
+                </div>
 
-</body></html>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Spatial Analysis</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spatial Econometrics</span>
+                        <span class="skill-tag">GeoAI</span>
+                        <span class="skill-tag">OD Matrix Estimation</span>
+                        <span class="skill-tag">Network Analysis</span>
+                        <span class="skill-tag">Spatial Statistics</span>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Shiny</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">QGIS</span>
+                        <span class="skill-tag">Leaflet</span>
+                        <span class="skill-tag">CARTO</span>
+                        <span class="skill-tag">Kepler.gl</span>
+                        <span class="skill-tag">Blender</span>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Methods</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Causal Inference</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Bayesian Modeling</span>
+                        <span class="skill-tag">Cost-Benefit Analysis</span>
+                        <span class="skill-tag">Demand Forecasting</span>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">English (C2)</span>
+                        <span class="skill-tag">Spanish (Native)</span>
+                        <span class="skill-tag">Italian (Intermediate)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE (Timeline) ===================== -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-label reveal">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2024 &ndash; Present</div>
+                    <div class="timeline-content">
+                        <h3>REDAS Engineering</h3>
+                        <p class="timeline-role">Transportation Economist &amp; Data Scientist</p>
+                        <p class="timeline-loc">Milan, Italy</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>ALEPH SRL</h3>
+                        <p class="timeline-role">Transportation Consultant</p>
+                        <p class="timeline-loc">Florence, Italy</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2022 &ndash; 2025</div>
+                    <div class="timeline-content">
+                        <h3>World Bank Group</h3>
+                        <p class="timeline-role">Transportation Planning Consultant</p>
+                        <p class="timeline-loc">Remote</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2022 &ndash; 2023</div>
+                    <div class="timeline-content">
+                        <h3>World Bank &mdash; Dev Data Partnership</h3>
+                        <p class="timeline-role">Data Engineer</p>
+                        <p class="timeline-loc">Remote</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2022 &ndash; 2023</div>
+                    <div class="timeline-content">
+                        <h3>Inter-American Development Bank</h3>
+                        <p class="timeline-role">External Consultant</p>
+                        <p class="timeline-loc">Remote</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2021 &ndash; 2022</div>
+                    <div class="timeline-content">
+                        <h3>Uber</h3>
+                        <p class="timeline-role">External Consultant</p>
+                        <p class="timeline-loc">Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2021 &ndash; 2022</div>
+                    <div class="timeline-content">
+                        <h3>INDEC</h3>
+                        <p class="timeline-role">Product Owner</p>
+                        <p class="timeline-loc">Argentina</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2017 &ndash; 2019</div>
+                    <div class="timeline-content">
+                        <h3>City of Buenos Aires</h3>
+                        <p class="timeline-role">Transportation Economist</p>
+                        <p class="timeline-loc">Argentina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-inner reveal">
+                <h2 class="section-label">Get in Touch</h2>
+                <p class="contact-text">I'm always interested in collaborating on urban data science projects, transport research, and spatial analytics. Feel free to reach out.</p>
+                <div class="contact-links">
+                    <a href="mailto:jfulponi@economicas.uba.ar" class="contact-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        jfulponi@economicas.uba.ar
+                    </a>
+                    <a href="https://github.com/jfulponi" class="contact-link" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/jfulponi" class="contact-link" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Juan Ignacio Fulponi. Built with purpose.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
